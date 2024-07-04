@@ -59,7 +59,7 @@ release: build tar
 
 .PHONY: build
 build:
-	@go version
+	go version go1.22.5 linux/amd64
 	@echo Cleaning old builds
 	@rm -rf build && mkdir build
 	@echo Building: darwin/amd64 - $(VERSION)
