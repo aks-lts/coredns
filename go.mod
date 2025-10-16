@@ -2,7 +2,7 @@ module github.com/coredns/coredns
 
 // Note this minimum version requirement. CoreDNS supports the last two
 // Go versions. This follows the upstream Go project support.
-go 1.24.0
+go 1.25.1
 
 require (
 	github.com/Azure/azure-sdk-for-go v68.0.0+incompatible
@@ -32,7 +32,7 @@ require (
 	github.com/prometheus/client_golang v1.23.0
 	github.com/prometheus/client_model v0.6.2
 	github.com/prometheus/common v0.65.0
-	github.com/quic-go/quic-go v0.54.0
+	github.com/quic-go/quic-go v0.54.1
 	go.etcd.io/etcd/api/v3 v3.6.4
 	go.etcd.io/etcd/client/v3 v3.6.4
 	go.uber.org/automaxprocs v1.6.0
