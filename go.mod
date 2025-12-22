@@ -2,7 +2,7 @@ module github.com/coredns/coredns
 
 // Note this minimum version requirement. CoreDNS supports the last two
 // Go versions. This follows the upstream Go project support.
-go 1.24.0
+go 1.25.5
 
 require (
 	github.com/Azure/azure-sdk-for-go v68.0.0+incompatible
@@ -18,7 +18,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/secretsmanager v1.39.6
 	github.com/coredns/caddy v1.1.4-0.20250930002214-15135a999495
 	github.com/dnstap/golang-dnstap v0.4.0
-	github.com/expr-lang/expr v1.17.6
+	github.com/expr-lang/expr v1.17.7
 	github.com/farsightsec/golang-framestream v0.3.0
 	github.com/go-logr/logr v1.4.3
 	github.com/grpc-ecosystem/grpc-opentracing v0.0.0-20180507213350-8e809c8a8645
@@ -33,12 +33,12 @@ require (
 	github.com/prometheus/client_golang v1.23.0
 	github.com/prometheus/client_model v0.6.2
 	github.com/prometheus/common v0.66.1
-	github.com/quic-go/quic-go v0.55.0
+	github.com/quic-go/quic-go v0.57.0
 	go.etcd.io/etcd/api/v3 v3.6.5
 	go.etcd.io/etcd/client/v3 v3.6.5
 	go.uber.org/automaxprocs v1.6.0
-	golang.org/x/crypto v0.42.0
-	golang.org/x/sys v0.36.0
+	golang.org/x/crypto v0.45.0
+	golang.org/x/sys v0.38.0
 	google.golang.org/api v0.251.0
 	google.golang.org/grpc v1.75.1
 	google.golang.org/protobuf v1.36.10
@@ -175,14 +175,14 @@ require (
 	go.yaml.in/yaml/v2 v2.4.2 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
 	golang.org/x/exp v0.0.0-20250408133849-7e4ce0ab07d0 // indirect
-	golang.org/x/mod v0.27.0 // indirect
-	golang.org/x/net v0.45.0 // indirect
+	golang.org/x/mod v0.29.0 // indirect
+	golang.org/x/net v0.47.0 // indirect
 	golang.org/x/oauth2 v0.31.0 // indirect
-	golang.org/x/sync v0.17.0 // indirect
-	golang.org/x/term v0.35.0 // indirect
-	golang.org/x/text v0.29.0 // indirect
+	golang.org/x/sync v0.18.0 // indirect
+	golang.org/x/term v0.37.0 // indirect
+	golang.org/x/text v0.31.0 // indirect
 	golang.org/x/time v0.13.0 // indirect
-	golang.org/x/tools v0.36.0 // indirect
+	golang.org/x/tools v0.38.0 // indirect
 	golang.org/x/xerrors v0.0.0-20231012003039-104605ab7028 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20250707201910-8d1bb00bc6a7 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20250929231259-57b25ae835d4 // indirect
