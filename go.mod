@@ -2,7 +2,7 @@ module github.com/coredns/coredns
 
 // Note this minimum version requirement. CoreDNS supports the last two
 // Go versions. This follows the upstream Go project support.
-go 1.24.0
+go 1.25.5
 
 require (
 	github.com/Azure/azure-sdk-for-go v68.0.0+incompatible
@@ -18,7 +18,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/secretsmanager v1.40.4
 	github.com/coredns/caddy v1.1.4-0.20250930002214-15135a999495
 	github.com/dnstap/golang-dnstap v0.4.0
-	github.com/expr-lang/expr v1.17.6
+	github.com/expr-lang/expr v1.17.7
 	github.com/farsightsec/golang-framestream v0.3.0
 	github.com/go-logr/logr v1.4.3
 	github.com/grpc-ecosystem/grpc-opentracing v0.0.0-20180507213350-8e809c8a8645
