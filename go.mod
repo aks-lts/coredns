@@ -189,7 +189,7 @@ replace golang.org/x/net => golang.org/x/net v0.56.0
 
 replace golang.org/x/sys => golang.org/x/sys v0.44.0
 
-replace golang.org/x/text => golang.org/x/text v0.39.0
+replace golang.org/x/text => golang.org/x/text v0.41.0
 
 replace google.golang.org/grpc => google.golang.org/grpc v1.83.2
 
