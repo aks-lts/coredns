@@ -226,6 +226,6 @@ replace golang.org/x/crypto => golang.org/x/crypto v0.56.0
 
 replace golang.org/x/mod => golang.org/x/mod v0.40.0
 
-replace google.golang.org/grpc => google.golang.org/grpc v1.83.2
-
 replace golang.org/x/net => golang.org/x/net v0.60.0
+
+replace google.golang.org/grpc => google.golang.org/grpc v1.83.2
