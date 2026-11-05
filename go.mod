@@ -192,5 +192,3 @@ replace golang.org/x/sys => golang.org/x/sys v0.44.0
 replace golang.org/x/text => golang.org/x/text v0.41.0
 
 replace google.golang.org/grpc => google.golang.org/grpc v1.83.2
-
-replace github.com/expr-lang/expr => github.com/expr-lang/expr v1.17.7
