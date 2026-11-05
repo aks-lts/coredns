@@ -53,7 +53,7 @@ require (
 	github.com/hashicorp/golang-lru/v2 v2.0.7
 	github.com/pires/go-proxyproto v0.11.0
 	github.com/prometheus/exporter-toolkit v0.16.0
-	golang.org/x/net v0.58.0
+	golang.org/x/net v0.60.0
 )
 
 require (
@@ -219,7 +219,7 @@ replace github.com/klauspost/compress => github.com/klauspost/compress v1.18.7
 
 replace github.com/quic-go/quic-go => github.com/quic-go/quic-go v0.59.1
 
-replace golang.org/x/crypto => golang.org/x/crypto v0.56.0
+replace golang.org/x/crypto => golang.org/x/crypto v0.58.1-0.20261009181718-2f1f834330b2
 
 replace golang.org/x/mod => golang.org/x/mod v0.40.0
 
