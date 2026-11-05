@@ -57,7 +57,7 @@ require (
 	github.com/pires/go-proxyproto v0.15.0
 	github.com/prometheus/exporter-toolkit v0.17.1
 	go.uber.org/zap v1.28.0
-	golang.org/x/net v0.59.0
+	golang.org/x/net v0.60.0
 )
 
 require (
@@ -222,7 +222,7 @@ require (
 	sigs.k8s.io/yaml v1.6.0 // indirect
 )
 
-replace golang.org/x/crypto => golang.org/x/crypto v0.56.0
+replace golang.org/x/crypto => golang.org/x/crypto v0.58.1-0.20261009181718-2f1f834330b2
 
 replace golang.org/x/mod => golang.org/x/mod v0.40.0
 
