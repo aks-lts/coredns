@@ -215,6 +215,8 @@ require (
 
 replace github.com/DataDog/dd-trace-go/v2 => github.com/DataDog/dd-trace-go/v2 v2.8.1
 
+replace github.com/klauspost/compress => github.com/klauspost/compress v1.18.7
+
 replace github.com/quic-go/quic-go => github.com/quic-go/quic-go v0.59.1
 
 replace golang.org/x/crypto => golang.org/x/crypto v0.56.0
