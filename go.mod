@@ -14,7 +14,7 @@ require (
 	github.com/dnstap/golang-dnstap v0.4.0
 	github.com/expr-lang/expr v1.17.7
 	github.com/farsightsec/golang-framestream v0.3.0
-	github.com/go-logr/logr v1.4.3
+	github.com/go-logr/logr v1.4.4
 	github.com/grpc-ecosystem/grpc-opentracing v0.0.0-20180507213350-8e809c8a8645
 	github.com/infobloxopen/go-trees v0.0.0-20200715205103-96a057b8dfb9
 	github.com/matttproud/golang_protobuf_extensions v1.0.4
@@ -148,9 +148,10 @@ require (
 	go.opentelemetry.io/collector/pdata/pprofile v0.104.0 // indirect
 	go.opentelemetry.io/collector/semconv v0.104.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.61.0 // indirect
-	go.opentelemetry.io/otel v1.44.0 // indirect
-	go.opentelemetry.io/otel/metric v1.44.0 // indirect
-	go.opentelemetry.io/otel/trace v1.44.0 // indirect
+	go.opentelemetry.io/otel v1.47.0 // indirect
+	go.opentelemetry.io/otel/log v1.47.0 // indirect
+	go.opentelemetry.io/otel/metric v1.47.0 // indirect
+	go.opentelemetry.io/otel/trace v1.47.0 // indirect
 	go.uber.org/atomic v1.11.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.27.0 // indirect
@@ -181,7 +182,9 @@ replace github.com/klauspost/compress => github.com/klauspost/compress v1.18.7
 
 replace github.com/quic-go/quic-go => github.com/quic-go/quic-go v0.59.1
 
-replace go.opentelemetry.io/otel => go.opentelemetry.io/otel v1.44.0
+replace go.opentelemetry.io/otel => go.opentelemetry.io/otel v1.47.0
+
+replace go.opentelemetry.io/otel/trace => go.opentelemetry.io/otel/trace v1.47.0
 
 replace golang.org/x/crypto => golang.org/x/crypto v0.58.1-0.20261009181718-2f1f834330b2
 
